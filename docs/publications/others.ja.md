@@ -5,13 +5,13 @@ layout: default
 
 - **ROS準拠ロボット及びエッジを活用したIoTシステムの性能評価**    
 佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
-, *xSIG2023*    , 2023 
+, *xSIG2023 Poster*    , 2023 
 
 
 
 - **JuliaとActorを用いた強化学習フレームワークの提案** [[Paper](dataDir/xsig23nakada_poster.pdf)]  <span onmouseover="document.getElementById('xsig23nakada_poster').style.display = 'block'"  onmouseout="document.getElementById('xsig23nakada_poster').style.display = 'none'">[abst]</span>   
 中田 秀基
-, *xSIG2023*    , 2023 
+, *xSIG2023 Poster*    , 2023 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="xsig23nakada_poster"> 並列強化学習には複雑な並行制御が必要となり、単純なFork-Join型の並列計算にはそぐわない。本発表ではJulia言語を対象としてActorを導入し、その上に汎用性の高い教科学習フレームワークを構築する。</div> </blockquote>
 
