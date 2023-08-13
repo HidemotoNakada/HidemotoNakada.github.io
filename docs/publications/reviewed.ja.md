@@ -3,6 +3,14 @@ layout: default
 ---
 # 査読あり (日本語) 
 
+- **大規模オープン AI インフラストラクチャ ABCI**  <span onmouseover="document.getElementById('jses2023').style.display = 'block'"  onmouseout="document.getElementById('jses2023').style.display = 'none'">[abst]</span>   
+中田 秀基
+, *Journal of Japan Solar Energy Socety, Vol.49. No.4*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jses2023"> 本稿では，産業技術総合研究所(以下，産総研)が保有，運用している，どなたでも使用できる大規模 AI 向けクラウドシステム ABCI(AI Bridging Cloud Infrastructure: AI 橋渡しクラウド)1-3)につて紹介する.</div> </blockquote>
+
+
+
 - **仮想マシンに対して透過的なClient Mobile IPv6 トンネリング機構**  <span onmouseover="document.getElementById('ieice12hirofuchi').style.display = 'block'"  onmouseout="document.getElementById('ieice12hirofuchi').style.display = 'none'">[abst]</span>   
 広渕崇宏, 中田 秀基, 伊藤智, 関口 智嗣
 , *電子情報通信学会論文誌　Ｂ　通信*    , 2012 

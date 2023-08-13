@@ -3,6 +3,60 @@ layout: default
 ---
 # その他(日本語) 
 
+- **ROS準拠ロボット及びエッジを活用したIoTシステムの性能評価**    
+佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
+, *xSIG2023*    , 2023 
+
+
+
+- **JuliaとActorを用いた強化学習フレームワークの提案**  <span onmouseover="document.getElementById('xsig23nakada_poster').style.display = 'block'"  onmouseout="document.getElementById('xsig23nakada_poster').style.display = 'none'">[abst]</span>   
+中田 秀基
+, *xSIG2023*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="xsig23nakada_poster"> 並列強化学習には複雑な並行制御が必要となり、単純なFork-Join型の並列計算にはそぐわない。本発表ではJulia言語を対象としてActorを導入し、その上に汎用性の高い教科学習フレームワークを構築する。</div> </blockquote>
+
+
+
+- **5G SA 環境における IoT システムのためのモバイル通信性能評価**  <span onmouseover="document.getElementById('xsig23ito').style.display = 'block'"  onmouseout="document.getElementById('xsig23ito').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *xSIG2023*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="xsig23ito"> IoT機器から収集された様々なセンサデータをクラウドで蓄積,解析し,活用することが期待されている. しかし,モバイル環境にあるIoTデータの収集では,各種サービスで要求される通信スループットや通信遅延を維持することができるかが課題となる. 高性能なモバイル通信技術として, 5Gの活用が期待されているが,小規模データが大量に送信されるような, IoT通信で利用する際の性能特性は明らかではない. 本研究では, IoT用通信ライブラリを提供するSINETStreamを用いて, 5G SA (Standalone)環境におけるIoTデータ通信性能を調査する. 5G SAとは, 4G用のコア装置を流用するNSA (Non-SA)に対して, 5G専用のコア装置を導入して5G専用の基地局装置を使用するものである. 実験結果から,モバイル通信における5G SAのスループットが従来のLTEよりも高くなること,通信スループットを高めるにはマルチスレッド通信が有効であることを確認した. 一方で, IoT通信のように小規模のメッセージを大量にクラウドに送信するような通信パターンではアップロード帯域で律速され,広いダウンロード帯域を持つ5Gモバイル通信を有効利用するのが難しいことも示唆された.</div> </blockquote>
+
+
+
+- **5G 環境での IoT システムのためのモバイル通信性能の評価**  <span onmouseover="document.getElementById('dicomo23ito').style.display = 'block'"  onmouseout="document.getElementById('dicomo23ito').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *マルチメディア，分散，協調とモバイル(DICOMO2023)シンポジウム*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="dicomo23ito"> IoT 機器から収集された様々なセンサデータをクラウドで蓄積, 解析し, 活用することが期待されている. しかし, モバイル環境にある IoT データの収集では, 各種サービスで要求される通信スループットや通信遅延を維持することができるかが課題となる. また, 高性能なモバイル通信技術として5G の活用が期待されているが, 小規模データが大量に送信されるようなIoT 通信で利用する際の性能特性は明らかではない. 本研究では, IoT 用通信ライブラリを提供する SINETStream を用いて, 5G環境における IoT データ通信性能を調査する. 5GとはLTEをさらに進化させた通信規格であり, 高速大容量, 低遅延, 多数同時接続の特徴を持つ. また, 5G SA(Standalone)は, 4G 用のコア装置を流用する NSA (Non-SA) に対して, 5G 専用のコア装置と基地局装置を使用するものである. 実験から, 5G SAではIoT通信スループットが従来のLTEよりも高くなる多いこと, 通信スループットを高めるにはマルチスレッド通信やデータ圧縮が有効であることを確認した. 一方で, IoT通信のように小規模のメッセージを大量にクラウドに送信するような通信パターンではアップロード帯域で律速され, 広いダウンロード帯域を持つ5Gモバイル通信を有効利用するのが難しいことも示唆された.</div> </blockquote>
+
+
+
+- **ROS準拠ロボット及びエッジを活用したストリーム処理を行うIoTシステムの構築と評価**  <span onmouseover="document.getElementById('dicomo23sasaki').style.display = 'block'"  onmouseout="document.getElementById('dicomo23sasaki').style.display = 'none'">[abst]</span>   
+佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
+, *マルチメディア，分散，協調とモバイル(DICOMO2023)シンポジウム*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="dicomo23sasaki"> IoT機器に装備されたセンサによって収集したデータを活用して，お年寄りやペットの見守り，室内環境監視などを目的とした，スマートホームのためのサービスが実現されている．個々の家庭のデータをクラウドに収集するIoTシステムを構築するには，通信遅延の低減，転送データ量の削減，プライバシの保護への対策も必要となる．室内環境で多様なデータを収集する場合，一般家庭に多数のセンサを設置するとコストが高くなるだけでなく，必要な情報を得るためのセンサの再配置も容易ではない．よって，我々はROSで実装した車輪型移動ロボット，エッジ，クラウドを活用したIoTシステムを実装し，有用性を確認した．しかし，ROSの通信性能についてはより詳細な調査が必要である．本研究では，ROSとROSの後継バージョンであるROS2の性能特性を調査するため，異なる通信環境におけるセンサロボットとエッジ間の通信時間とスループットを測定し，センサロボットを活用したスマートホームにおける技術的課題を明らかにする．</div> </blockquote>
+
+
+
+- **報酬最大化を目的とする行動計画・実行・対話・推論の統一的制御機構**  <span onmouseover="document.getElementById('jsai23ichisugi').style.display = 'block'"  onmouseout="document.getElementById('jsai23ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
+, *人工知能学会全国大会（第37回）*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai23ichisugi"> 我々は将来の汎用人工知能の実現に向けて、再帰的強化学習を用いて思考や行動を制御するAIアーキテクチャを開発している。エージェントは統一的な制御のもと、環境に対して行動し、他者と対話し、環境の状態を推論して、報酬の最大化を目指す。本稿では、まず全体アーキテクチャを説明したあと、その上で動作する行動計画の機構を提案する。我々はプロトタイプシステムを実装し提案機構の動作を確認した。</div> </blockquote>
+
+
+
+- **Improving symbolic music pre-training using bar-level variational inference**  <span onmouseover="document.getElementById('jsai23fu').style.display = 'block'"  onmouseout="document.getElementById('jsai23fu').style.display = 'none'">[abst]</span>   
+Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
+, *人工知能学会全国大会（第37回）*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai23fu"> Pre-training has been a significant trend in NLP nowadays. BERT-liked models showed power in solving downstream tasks. Inspired by the masked language model pre-training strategy, context could be learned by recovering the masked musical tokens. In our previous work, we tested the ability of MusicBERT and improved the model structure. The models worked well on the melody extraction task (a token-level classification task). But when facing sequential tasks like composer and emotion classification, our previous models&#x27; performance still needs improvement. The possible reason is that, the previous pre-training method cannot learn the general information of the sequence from the context. We proposed the bar-level recovery pre-training task using variational inference to solve this problem. Our proposed method aims to better learn general sequential information from context. In our in-progress work, we compared our method with the previous works.</div> </blockquote>
+
+
+
 - **Julia言語を用いた高性能並列実行環境の構築** [[Paper](dataDir/pro2303nakada.pdf)] [[Slides](dataDir/pro2303nakada-slide.pdf)]  <span onmouseover="document.getElementById('pro2303nakada').style.display = 'block'"  onmouseout="document.getElementById('pro2303nakada').style.display = 'none'">[abst]</span>   
 中田秀基
 , *情報処理学会プログラミング研究会*    , 2023 

@@ -3,6 +3,12 @@ layout: default
 ---
 # 書籍/翻訳/雑誌記事 
 
+- **RustとWebAssemblyによるゲーム開発 ―安全・高速・プラットフォーム非依存のWebアプリ開発入門**    
+Eric Smith
+, *オライリー・ジャパン*    , 2023 
+
+
+
 - **プログラミングRust 第2版**    
 Jim Blandy, Jason Orendorff, Leonora F. S. Tindall
 , *オライリー・ジャパン*    , 2022 

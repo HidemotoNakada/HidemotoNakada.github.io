@@ -3,6 +3,22 @@ layout: default
 ---
 # ML related 
 
+- **報酬最大化を目的とする行動計画・実行・対話・推論の統一的制御機構**  <span onmouseover="document.getElementById('jsai23ichisugi').style.display = 'block'"  onmouseout="document.getElementById('jsai23ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
+, *人工知能学会全国大会（第37回）*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai23ichisugi"> 我々は将来の汎用人工知能の実現に向けて、再帰的強化学習を用いて思考や行動を制御するAIアーキテクチャを開発している。エージェントは統一的な制御のもと、環境に対して行動し、他者と対話し、環境の状態を推論して、報酬の最大化を目指す。本稿では、まず全体アーキテクチャを説明したあと、その上で動作する行動計画の機構を提案する。我々はプロトタイプシステムを実装し提案機構の動作を確認した。</div> </blockquote>
+
+
+
+- **Improving symbolic music pre-training using bar-level variational inference**  <span onmouseover="document.getElementById('jsai23fu').style.display = 'block'"  onmouseout="document.getElementById('jsai23fu').style.display = 'none'">[abst]</span>   
+Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
+, *人工知能学会全国大会（第37回）*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai23fu"> Pre-training has been a significant trend in NLP nowadays. BERT-liked models showed power in solving downstream tasks. Inspired by the masked language model pre-training strategy, context could be learned by recovering the masked musical tokens. In our previous work, we tested the ability of MusicBERT and improved the model structure. The models worked well on the melody extraction task (a token-level classification task). But when facing sequential tasks like composer and emotion classification, our previous models&#x27; performance still needs improvement. The possible reason is that, the previous pre-training method cannot learn the general information of the sequence from the context. We proposed the bar-level recovery pre-training task using variational inference to solve this problem. Our proposed method aims to better learn general sequential information from context. In our in-progress work, we compared our method with the previous works.</div> </blockquote>
+
+
+
 - **Improve symbolic music pre-training model using MusicTransformer structure**  <span onmouseover="document.getElementById('imcom2023fu').style.display = 'block'"  onmouseout="document.getElementById('imcom2023fu').style.display = 'none'">[abst]</span>   
 Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
 , *The 17th International Conference on Ubiquitous Information Management and Communication*    , 2023 
