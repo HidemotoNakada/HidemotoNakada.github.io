@@ -19,6 +19,14 @@ Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
 
 
 
+- **Attention機構を用いた物体中心表現学習** [[Paper](dataDir/prmu2305.pdf)] [[Slides](dataDir/prmu2305-slides.pdf)]  <span onmouseover="document.getElementById('prmu2305').style.display = 'block'"  onmouseout="document.getElementById('prmu2305').style.display = 'none'">[abst]</span>   
+中田秀基, 麻生 英樹
+, *信学技報, vol. 123, no. 30, PRMU2023-13*   , pp. 68-73  , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="prmu2305"> 動画像を用いた表現学習では、個々の物体をマスクで分離した上で個別に物体表現を教師なしで学習する手法が広く用いられている。これらの表現学習手法の性能は高く、多くのダウンストリームタスクで高い性能を示しているが、計算量が膨大であるという問題点がある。われわれは、従来の動画表現学習手法であるViMONをベースとし、これにAttention機構を導入することで、性能を維持しつつ計算量を低減することを試みた。Attention機構を導入する位置によって2つの手法を提案し、それぞれ実装を行い、再構成誤差、実行時間、ダウンストリームタスクの性能で評価を行った。その結果、ベースとなる手法と比較して、より高い性能を示しながら大幅な計算量の低減できることを確認した。</div> </blockquote>
+
+
+
 - **Improve symbolic music pre-training model using MusicTransformer structure**  <span onmouseover="document.getElementById('imcom2023fu').style.display = 'block'"  onmouseout="document.getElementById('imcom2023fu').style.display = 'none'">[abst]</span>   
 Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
 , *The 17th International Conference on Ubiquitous Information Management and Communication*    , 2023 
