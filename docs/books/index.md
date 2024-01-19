@@ -4,7 +4,16 @@ layout: default
 # 翻訳
 
 <div>
-<span class="title"> プログラミングRust 第2版 </span>
+<span class="title"> RustとWebAssemblyによるゲーム開発 ―安全・高速・プラットフォーム非依存のWebアプリ開発入門 </span>
+<span class="author"> Eric Smith(著), 中田 秀基(翻訳) </span>
+<span class="isbn"> 481440039X </span>
+<span class="publisher"> オライリー・ジャパン </span>
+</div>
+<p>
+</p>
+<a href="https://www.amazon.co.jp/dp/481440039X/?tag=hidemon01-22" target="_blank"><img src="https://m.media-amazon.com/images/I/51xr5OIL9-L._SL200_.jpg" alt="481440039X" border="0" /></a>
+
+<div class="title"> プログラミングRust 第2版 </span>
 <span class="author"> Jim Blandy(著), Jason Orendorff(著), Leonora F. S. Tindall(著), 中田 秀基(翻訳) </span>
 <span class="isbn"> ISBN 4873119782 </span>
 <span class="publisher"> オライリージャパン </span>
