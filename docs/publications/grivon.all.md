@@ -94,7 +94,7 @@ Ryousei Takano, Hidemoto Nakada, Takahiro Hirofuchi, Yoshio Tanaka, Tomohiro Kud
 
 - **仮想マシンに対して透過的なClient Mobile IPv6 トンネリング機構**  <span onmouseover="document.getElementById('ieice12hirofuchi').style.display = 'block'"  onmouseout="document.getElementById('ieice12hirofuchi').style.display = 'none'">[abst]</span>   
 広渕崇宏, 中田 秀基, 伊藤智, 関口 智嗣
-, *電子情報通信学会論文誌　Ｂ　通信*    , 2012 
+, *電子情報通信学会論文誌　Ｂ　通信*   , pp. 1239-1252  , 2012 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="ieice12hirofuchi"> 我々は，データセンタの運用柔軟性を向上させるため，仮想マシン（VM）の広域ライブマイグレーションに注目している．例えば，電力需要が逼迫した際に一部の仮想マシンを一時的に遠隔拠点に待避してサービスを継続できる．このときゲストOS がIP アドレスを維持したまま透過的に通信を継続できる必要があり，我々はMobile IPv6（MIPv6）技術に着目してきた．しかし，MIPv6 は強力なトンネリング機構を備えるものの，既存のMIPv6 技術をそのままマイグレーションに用いることは難しい．ゲストOS を改変することなく透過的にトンネリングを可能とし，VM 一つからでも柔軟にマイグレーションできる機構が必要である．そこで，我々はゲストOS にとって透過的なMIPv6 トンネリング機構（Kagemusha）を提案する．提案機構はホストOS 上で動作し，Client MIPv6 のシグナリングやトンネリングをゲストOS に対して透過的に行う．ゲストOS にMIPv6 に関するプログラムを導入する必要はない．さらに，既存のHome Agent（HA）や仮想マシンモニタを一切変更することなくそのまま利用できる．プロトタイプ実装を用いて評価実験を行った．その結果，提案機構はHA と正しく通信でき，そのトンネリングオーバーヘッドはわずかであることが確認できた．またQemu/KVM のライブマイグレーションと正しく連係動作し，訪問先ネットワークにおいてもゲストOS に対して透過的なネットワーク接続を提供できた．このときマイグレーションにともなうダウンタイムの増加は評価実験環境において1 秒程度であった．</div> </blockquote>
 
@@ -348,23 +348,15 @@ Hidemoto Nakada, Takeshi Yokoi, Tadashi Ebara, Yusuke Tanimura, Hirotaka Ogawa, 
 
 
 
-- **ステートレス仮想クラスタの構想**    
-小川宏高, 中田 秀基, 横井 威, 江原忠士, 谷村 勇輔, 関口智嗣
-, *情報処理学会研究報告2007-HPC-112*   , pp. 43-48  , 2007 
-
-
-
 - **究極の仮想化環境を目指した「バーチャル・データセンター」**    
 中田秀基, 関口智嗣
 , *Computer World 11月号*    , 2007 
 
 
 
-- **複数サイトにまたがる仮想クラスタの構築** [[Paper](dataDir/hpc0708hirofuchi.pdf)]  <span onmouseover="document.getElementById('hpc0708hirofuchi').style.display = 'block'"  onmouseout="document.getElementById('hpc0708hirofuchi').style.display = 'none'">[abst]</span>   
-広渕崇宏, 谷村勇輔, 中田秀基, 田中良夫, 関口智嗣
-, *情報処理学会研究報告2007-HPC-111*   , pp. 231-236  , 2007 
-
-> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc0708hirofuchi"> 計算機資源の効率的かつ柔軟な運用を実現する手法として、仮想クラスタ技術が注目されている。しかし既存システムは単一サイトの計算機資源のみを仮想クラ スタの対象とする。構築可能な仮想クラスタは単一サイト内に存在する計算機資源によって制限され運用の柔軟性に乏しい。そこで、我々は複数サイトをまたい で横断的に仮想クラスタを構築可能な管理システムの実現に取り組んでいる。複数サイトにわたって構築された仮想クラスタにおいても、単一実行環境としての 透過性やシステムの導入や運用における容易性が実現されなければならない。本論文では、インターネットを介したイーサネット VPN によって単一のネットワークセグメントを仮想クラスタに対して提供することを提案する。予備的な評価実験においては、イーサネット VPN で結ばれたサイト間において仮想クラスタの構築が可能であることを確認した。</div> </blockquote>
+- **ステートレス仮想クラスタの構想**    
+小川宏高, 中田 秀基, 横井 威, 江原忠士, 谷村 勇輔, 関口智嗣
+, *情報処理学会研究報告2007-HPC-112*   , pp. 43-48  , 2007 
 
 
 
@@ -373,6 +365,14 @@ Hidemoto Nakada, Takeshi Yokoi, Tadashi Ebara, Yusuke Tanimura, Hirotaka Ogawa, 
 , *情報処理学会論文誌: コンピューティングシステム Vol.48 SIG13 (ACS19)*   , pp. 13-24  , 2007 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="acs19nakada"> 計算機資源の効率的な運用の方法として仮想化が注目されており，仮想的なクラスタを管理するシステムが提案されている．しかしこれらのシステムは，クラスタを単なるノードの集合と考えており，クラスタとしての統合的な運用に必要となるさまざまな機能を実現していない．また，計算機資源を仮想化しているが，ストレージ，ネットワークを含めた仮想化環境を提供していない．われわれは，これらの問題点を解決した仮想クラスタ管理システムを提案する．本システムは，クラスタ構築システムRocksを用いることで，クラスタ運用に必要なソフトウェアを整合して配置する．また，ストレージ資源をIP SAN技術のひとつであるiSCSIを用いて仮想化，ネットワーク資源をタグ付きVLANを用いて仮想化することで，管理コストが低く，安全な仮想クラスタ環境を実現する．</div> </blockquote>
+
+
+
+- **複数サイトにまたがる仮想クラスタの構築** [[Paper](dataDir/hpc0708hirofuchi.pdf)]  <span onmouseover="document.getElementById('hpc0708hirofuchi').style.display = 'block'"  onmouseout="document.getElementById('hpc0708hirofuchi').style.display = 'none'">[abst]</span>   
+広渕崇宏, 谷村勇輔, 中田秀基, 田中良夫, 関口智嗣
+, *情報処理学会研究報告2007-HPC-111*   , pp. 231-236  , 2007 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc0708hirofuchi"> 計算機資源の効率的かつ柔軟な運用を実現する手法として、仮想クラスタ技術が注目されている。しかし既存システムは単一サイトの計算機資源のみを仮想クラ スタの対象とする。構築可能な仮想クラスタは単一サイト内に存在する計算機資源によって制限され運用の柔軟性に乏しい。そこで、我々は複数サイトをまたい で横断的に仮想クラスタを構築可能な管理システムの実現に取り組んでいる。複数サイトにわたって構築された仮想クラスタにおいても、単一実行環境としての 透過性やシステムの導入や運用における容易性が実現されなければならない。本論文では、インターネットを介したイーサネット VPN によって単一のネットワークセグメントを仮想クラスタに対して提供することを提案する。予備的な評価実験においては、イーサネット VPN で結ばれたサイト間において仮想クラスタの構築が可能であることを確認した。</div> </blockquote>
 
 
 

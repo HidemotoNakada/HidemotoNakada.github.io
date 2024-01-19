@@ -184,17 +184,17 @@ Atsuko Takefusa, Michiaki Hayashi, Akira Hirano, Shuichi Okamoto, Tomohiro Kudoh
 
 
 
+- **GridRPC Tutorial**    
+Hidemoto Nakada, Satoshi Matsuoka, Mitsuhisa Sato, Satoshi Sekiguchi 
+, *CCGrid  2003*    , 2003 
+
+
+
 - **A Java-based Programming Environment for the Grid: Jojo**  <span onmouseover="document.getElementById('ccgrid03posterNakada').style.display = 'block'"  onmouseout="document.getElementById('ccgrid03posterNakada').style.display = 'none'">[abst]</span>   
 Hidemoto Nakada, Satoshi Matsuoka, Satoshi Sekiguchi
 , *CCGrid 2003 Poster*    , 2003 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="ccgrid03posterNakada"> This poster introduces a java-based programming environment for the Grid, called Jojo. Jojo is a distributed programming environment implemented in Java. It is suitable for a grid environment consists of cluster of clusters. Jojo provides several features, including secure remote invocation using Globus GRAM, intuitive message passing API suitable for parallel execution and automatic user program staging. Jojo helps users to construct their own parallel-distributed application on the Grid. In the poster, we show design and implementation of Jojo, its programming API and a working program example. We also show preliminary performance evaluation result.</div> </blockquote>
-
-
-
-- **GridRPC Tutorial**    
-Hidemoto Nakada, Satoshi Matsuoka, Mitsuhisa Sato, Satoshi Sekiguchi 
-, *CCGrid  2001*    , 2001 
 
 
 

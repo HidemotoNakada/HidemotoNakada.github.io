@@ -240,17 +240,17 @@ Atsuko Takefusa, Hidemoto Nakada, Seiya Yanagita, Fumihiro Okazaki, Tomohiro Kud
 
 
 
-- **Network as a resource: G-lambda project and its architecture**    
-Tomohiro Kudoh, Michiaki Hayashi, Akira Hirano, Shuichi Okamoto, Atsuko Takefusa, Takahiro Miyamoto, Yukio Tsukishima, Tomohiro Otani, Hidemoto Nakada, Hideaki Tanaka, Atsushi Taniguchi, Yasunori Sameshima, Masahiko Jinno
-, *First International Conference on Networks for Grid Applications*    , 2007 
-
-
-
 - **G-lambda and EnLIGHTened: Wrapped In Middleware Co-allocating Compute and Network Resources Across Japan and the US**  <span onmouseover="document.getElementById('gridnets07steve').style.display = 'block'"  onmouseout="document.getElementById('gridnets07steve').style.display = 'none'">[abst]</span>   
 Steven R. Thorpe, Lina Battestilli, Gigi Karmous-Edwards, Andrei Hutanu, Jon MacLaren, Joe Mambretti, John H. Moore, Kamaraju Syam Sundar, Yufeng Xin, Atsuko Takefusa, Michiaki Hayashi, Akira Hirano, Shuichi Okamoto, Tomohiro Kudoh, Takahiro Miyamoto, Yukio Tsukishima, Tomohiro Otani, Hidemoto Nakada, Hideaki Tanaka, Atsushi Taniguchi, Yasunori Sameshima, Masahiko Jinno
 , *Proc. First International Conference on Networks for Grid Applications (GridNets)*   , pp. 8p  , 2007 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="gridnets07steve"> This paper describes innovative architectures and techniques for reserving and coordinating highly distributed resources, a capability required for many large scale applications. In the fall of 2006, Japan&#x27;s G-lambda research team and the United States&#x27; EnLIGHTened Computing research team used these innovations to achieve the world&#x27;s first inter-domain coordination of resource managers for in-advance reservation of network bandwidth and compute resources between and among both the US and Japan. The compute and network resource managers had different interfaces and were independently developed. Automated interoperability among the resources in both countries was enabled through various Grid middleware components. In this paper, we describe the middleware components, testbeds, results, and lessons learned.</div> </blockquote>
+
+
+
+- **Network as a resource: G-lambda project and its architecture**    
+Tomohiro Kudoh, Michiaki Hayashi, Akira Hirano, Shuichi Okamoto, Atsuko Takefusa, Takahiro Miyamoto, Yukio Tsukishima, Tomohiro Otani, Hidemoto Nakada, Hideaki Tanaka, Atsushi Taniguchi, Yasunori Sameshima, Masahiko Jinno
+, *First International Conference on Networks for Grid Applications*    , 2007 
 
 
 

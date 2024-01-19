@@ -3,15 +3,23 @@ layout: default
 ---
 # その他(日本語) 
 
+- **ネットワークエッジを活用した大規模データ収集システムのテスト環境構築と最適化の検討**  <span onmouseover="document.getElementById('hpc202309tou').style.display = 'block'"  onmouseout="document.getElementById('hpc202309tou').style.display = 'none'">[abst]</span>   
+董 允治, 中田秀基, 谷村勇輔
+, *情報処理学会研究報告 Vol.2023-HPC-191 No.11*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc202309tou"> 近年、IoT(Internet of Things)技術の発展に伴い、エッジとクラウドを適切に使い分けるアーキテ クチャの設計やそれを実現する技術が必要となっている。本研究では、データソースにできるだけ近い場所 で不要データの削減、複数データの集約、各種処理を行うことで、エッジからクラウドにまたがるデータ収 集システムを効率的に実現する手法を明らかにすることを目指している。そうした研究においては、クラ ウドやエッジで動作する大規模な実験環境を用いた評価が必要であるが、実際のマシンを用いて大規模な 実験環境を構築することとは容易ではない。そのため、Amazon EKS を用いて実験環境を構築し、実験目 的に合わせて拡大や縮小を行ったり、再構成を行ったりする方法をとることにした。Amazon EKS 環境を 用いた大規模実験により、Broker によるサーバ資源消費が十分に小さいことを確認し、ネットワークエッ ジに配置するサーバで各種データ処理を行える見込みを立てることができた。そして、中継サーバを追加 しても遅延が大きくならないこと、データ量が多い場合にも遅延の大幅な増加がなく転送が可能であるこ とを確認し、クラウドで処理するデータ量を大幅に減らし、クラウドへの負荷を軽減できる見込みを得た。</div> </blockquote>
+
+
+
 - **ROS準拠ロボット及びエッジを活用したIoTシステムの性能評価**    
 佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
-, *xSIG2023*    , 2023 
+, *xSIG2023 Poster*    , 2023 
 
 
 
-- **JuliaとActorを用いた強化学習フレームワークの提案**  <span onmouseover="document.getElementById('xsig23nakada_poster').style.display = 'block'"  onmouseout="document.getElementById('xsig23nakada_poster').style.display = 'none'">[abst]</span>   
+- **JuliaとActorを用いた強化学習フレームワークの提案** [[Paper](dataDir/xsig23nakada_poster.pdf)]  <span onmouseover="document.getElementById('xsig23nakada_poster').style.display = 'block'"  onmouseout="document.getElementById('xsig23nakada_poster').style.display = 'none'">[abst]</span>   
 中田 秀基
-, *xSIG2023*    , 2023 
+, *xSIG2023 Poster*    , 2023 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="xsig23nakada_poster"> 並列強化学習には複雑な並行制御が必要となり、単純なFork-Join型の並列計算にはそぐわない。本発表ではJulia言語を対象としてActorを導入し、その上に汎用性の高い教科学習フレームワークを構築する。</div> </blockquote>
 
@@ -54,6 +62,14 @@ Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
 , *人工知能学会全国大会（第37回）*    , 2023 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai23fu"> Pre-training has been a significant trend in NLP nowadays. BERT-liked models showed power in solving downstream tasks. Inspired by the masked language model pre-training strategy, context could be learned by recovering the masked musical tokens. In our previous work, we tested the ability of MusicBERT and improved the model structure. The models worked well on the melody extraction task (a token-level classification task). But when facing sequential tasks like composer and emotion classification, our previous models&#x27; performance still needs improvement. The possible reason is that, the previous pre-training method cannot learn the general information of the sequence from the context. We proposed the bar-level recovery pre-training task using variational inference to solve this problem. Our proposed method aims to better learn general sequential information from context. In our in-progress work, we compared our method with the previous works.</div> </blockquote>
+
+
+
+- **Attention機構を用いた物体中心表現学習** [[Paper](dataDir/prmu2305.pdf)] [[Slides](dataDir/prmu2305-slides.pdf)]  <span onmouseover="document.getElementById('prmu2305').style.display = 'block'"  onmouseout="document.getElementById('prmu2305').style.display = 'none'">[abst]</span>   
+中田秀基, 麻生 英樹
+, *信学技報, vol. 123, no. 30, PRMU2023-13*   , pp. 68-73  , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="prmu2305"> 動画像を用いた表現学習では、個々の物体をマスクで分離した上で個別に物体表現を教師なしで学習する手法が広く用いられている。これらの表現学習手法の性能は高く、多くのダウンストリームタスクで高い性能を示しているが、計算量が膨大であるという問題点がある。われわれは、従来の動画表現学習手法であるViMONをベースとし、これにAttention機構を導入することで、性能を維持しつつ計算量を低減することを試みた。Attention機構を導入する位置によって2つの手法を提案し、それぞれ実装を行い、再構成誤差、実行時間、ダウンストリームタスクの性能で評価を行った。その結果、ベースとなる手法と比較して、より高い性能を示しながら大幅な計算量の低減できることを確認した。</div> </blockquote>
 
 
 
@@ -772,6 +788,12 @@ Kaihui Zhang, Yusuke Tanimura, Hidemoto Nakada, Hirotaka Ogawa
 , *研究報告ハイパフォーマンス・コンピューティング（HPC）2017-HPC-163(7)*   , pp. 1--6  , 2018 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc1802chou"> Apache Spark is a parallel data processing framework that executes fast for iterative calculations and interactive processing, by caching intermediate data in memory with a lineage-based data recovery from faults. However, Spark still needs to load input data from a persistent storage at the beginning of main analytics and store the final result on the storage at the end of the analytics. In this study, we use a memory-based, tiered storage called Alluxio for the persistent storage of Spark and implement the active storage concept, which utilizes processing resources on the storage side and reduces the amount of I/O between Spark and Alluxio. As our first step, we implemented filtering on the Alluxio worker and examined performance improvement of reading data. The results showed that the performance was worse than we expected, due to inefficiency of storage-side filtering in our implementation.</div> </blockquote>
+
+
+
+- **AI入門 -こんにゃく相場は予測できるのか‐**    
+中田 秀基
+, *群馬県蒟蒻原料商工業協同組合新年講演会*    , 2018 
 
 
 
@@ -1829,6 +1851,12 @@ Dou Zhang, Rei Mingxi, Yusuke Tanimura, Hidemoto Nakada
 
 
 
+- **SOAの新しい標準技術としてのSCAの登場**    
+丸山不二夫, 中田秀基
+, *情報処理 Vol.48 No.9*   , pp. 1033-1037  , 2007 
+
+
+
 - **グリッドRPCシステムNinf-Gの可搬性および適応性の改善** [[Paper](dataDir/hpc0709nakada.pdf)] [[Slides](dataDir/hpc0709nakada_slide.pdf)]  <span onmouseover="document.getElementById('hpc0709nakada').style.display = 'block'"  onmouseout="document.getElementById('hpc0709nakada').style.display = 'none'">[abst]</span>   
 中田秀基, 朝生正人, 谷村勇輔, 田中良夫, 関口智嗣
 , *情報処理学会研究報告2007-HPC-112*   , pp. 37-42  , 2007 
@@ -1841,12 +1869,6 @@ Dou Zhang, Rei Mingxi, Yusuke Tanimura, Hidemoto Nakada
 - **ステートレス仮想クラスタの構想**    
 小川宏高, 中田 秀基, 横井 威, 江原忠士, 谷村 勇輔, 関口智嗣
 , *情報処理学会研究報告2007-HPC-112*   , pp. 43-48  , 2007 
-
-
-
-- **SOAの新しい標準技術としてのSCAの登場**    
-丸山不二夫, 中田秀基
-, *情報処理 Vol.48 No.9*   , pp. 1033-1037  , 2007 
 
 
 

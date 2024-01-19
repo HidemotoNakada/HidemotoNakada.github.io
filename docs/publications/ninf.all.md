@@ -274,6 +274,12 @@ Yoshio Tanaka, Hidemoto Nakada, Satoshi Sekiguchi, Toyotaro Suzumura, Satoshi Ma
 
 
 
+- **GridRPC Tutorial**    
+Hidemoto Nakada, Satoshi Matsuoka, Mitsuhisa Sato, Satoshi Sekiguchi 
+, *CCGrid  2003*    , 2003 
+
+
+
 - **Overview of GridRPC: A Remote Procedure Call API for Grid Computing**  <span onmouseover="document.getElementById('grid02seymour').style.display = 'block'"  onmouseout="document.getElementById('grid02seymour').style.display = 'none'">[abst]</span>   
  Keith Seymour, Hidemoto Nakada, Satoshi Matsuoka, Jack Dongarra, Craig Lee, Henri Casanova
 , *Grid Computing - Grid 2002, LNCS 2536*   , pp. 274-278  , 2002 
@@ -383,12 +389,6 @@ Satoshi Shirasuna, Hidemoto Nakada, Satoshi Matsuoka, Satoshi Sekiguchi
 , *情報処理学会ハイパフォーマンスコンピューティング研究会， Vol.2001, No.77*   , pp. 171-177  , 2001 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc0108suzumura"> 本稿では，分散オブジェクト技術 Jini を基盤に構築した Computing Portalシステム JiPANG(Jini-based Portals Augment Grid) の概 要を示す．JiPANG は，Grid 上に任意に存在するサービスを一元的に管理する インフラストラクチャと，そこに登録されたサービスの統一的かつ透過的な使用 を可能にするプログラミング環境を提供する．JiPANG を用いることによって， Ninf や NetSolve, Globus 等の多様な Grid 技術に同一のライブラリからア クセスできる他，最新のバージョンのサービスが自動的にダウンロードされる 等，Grid 環境で動作するアプリケーション開発のコストを大幅に削減するこ とができる．</div> </blockquote>
-
-
-
-- **GridRPC Tutorial**    
-Hidemoto Nakada, Satoshi Matsuoka, Mitsuhisa Sato, Satoshi Sekiguchi 
-, *CCGrid  2001*    , 2001 
 
 
 
