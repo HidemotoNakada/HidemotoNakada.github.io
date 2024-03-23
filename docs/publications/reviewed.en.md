@@ -3,6 +3,22 @@ layout: default
 ---
 # Reviewed (English) 
 
+- **Object-Centric Representation Learning with Attention Mechanism**  <span onmouseover="document.getElementById('imcom24nakada').style.display = 'block'"  onmouseout="document.getElementById('imcom24nakada').style.display = 'none'">[abst]</span>   
+Hidemoto Nakada, Hideki Asoh
+, *The 18th International Conference on Ubiquitous Information Management and Communication (IMCOM &#x27;24)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="imcom24nakada"> For object-centric representation learning, several slot-based methods, that separate objects using masks and learn the objects separately, are proposed. While these methods are proved to be useful on various downstream tasks, it is known that they require a significant amount of computation for training. We propose the introduction of attention mechanisms into slot-based method to simplify and speed up the computation. We pick ViMON as the base structure and propose two methods, named AttnViMON and SFA. We evaluate them in terms of reconstruction error and computation time, and a downstream task. The proposed methods demonstrate that they achieve significant speed-up while showing even better performance.</div> </blockquote>
+
+
+
+- **Cloud-based Testbed for Large-scale data Collection System with Network-Edge**  <span onmouseover="document.getElementById('imcom24tou').style.display = 'block'"  onmouseout="document.getElementById('imcom24tou').style.display = 'none'">[abst]</span>   
+Yunzhi Dong , Hidemoto Nakada, Yusuke Tanimura
+, *The 18th International Conference on Ubiquitous Information Management and Communication (IMCOM &#x27;24)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="imcom24tou"> With the recent development of IoT technology, it is becoming necessary to design systems that utilize not only the cloud but also the edge. We are studying systems that reduce the load on the cloud by performing various processes at the edge. Although experimentation in a large-scale environment is essential for such research, it is impractical to set up such an environment using actual computers. In this study, we attempted to construct a large-scale experimental environment on top of EKS, a container framework on Amazon Web Service and confirmed that it is possible to easily construct a large-scale experimental environment by using containers. Furthermore, we conducted several experiments on the constructed large-scale experimental environment and confirmed the following: 1) The computational load for the MQTT broker is sufficiently small even with high message frequency, 2) With a relay server, we can reduce the broker burden preserving the message delivery latency.</div> </blockquote>
+
+
+
 - **Improve symbolic music pre-training model using MusicTransformer structure**  <span onmouseover="document.getElementById('imcom2023fu').style.display = 'block'"  onmouseout="document.getElementById('imcom2023fu').style.display = 'none'">[abst]</span>   
 Yingfeng Fu, Yusuke Tanimura, Hidemoto Nakada
 , *The 17th International Conference on Ubiquitous Information Management and Communication*    , 2023 

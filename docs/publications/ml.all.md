@@ -3,6 +3,14 @@ layout: default
 ---
 # ML related 
 
+- **Object-Centric Representation Learning with Attention Mechanism**  <span onmouseover="document.getElementById('imcom24nakada').style.display = 'block'"  onmouseout="document.getElementById('imcom24nakada').style.display = 'none'">[abst]</span>   
+Hidemoto Nakada, Hideki Asoh
+, *The 18th International Conference on Ubiquitous Information Management and Communication (IMCOM &#x27;24)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="imcom24nakada"> For object-centric representation learning, several slot-based methods, that separate objects using masks and learn the objects separately, are proposed. While these methods are proved to be useful on various downstream tasks, it is known that they require a significant amount of computation for training. We propose the introduction of attention mechanisms into slot-based method to simplify and speed up the computation. We pick ViMON as the base structure and propose two methods, named AttnViMON and SFA. We evaluate them in terms of reconstruction error and computation time, and a downstream task. The proposed methods demonstrate that they achieve significant speed-up while showing even better performance.</div> </blockquote>
+
+
+
 - **報酬最大化を目的とする行動計画・実行・対話・推論の統一的制御機構**  <span onmouseover="document.getElementById('jsai23ichisugi').style.display = 'block'"  onmouseout="document.getElementById('jsai23ichisugi').style.display = 'none'">[abst]</span>   
 一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
 , *人工知能学会全国大会（第37回）*    , 2023 
@@ -787,6 +795,12 @@ Paulino Cristovao, Yusuke Tanimura, Hidemoto Nakada, Hideki Asoh
 , *DEIM 2018 (第10回データ工学と情報マネジメントに関するフォーラム)*    , 2018 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="deim18ichinose"> 近年各種センサの普及やクラウドコンピューティング技術の習熟に伴い，お年寄りや子供のための安全サー ビスなどを目的としたライフログが活用されている.しかし，動画像解析のようなデータ量，計算量の多い処理をク ラウドでリアルタイムに行うことは困難である.我々は，Kafka と Spark Streaming を用いた，複数カメラからの動画像収集とその解析処理を効率よく行う動画像解 析フレームワークを構築している.本稿では，データ収集を行う Kafka のレプリケーションの設定による性能の変化 に注目し，提案フレームワークのスループットを計測した.実験から，レプリケーション数を増やすことによりネッ トワークの輻輳が起き，データ転送のスループットが低下し，システム全体のスループットが低下することがわかっ た.また，ネットワーク帯域を十分に増やすことにより性能劣化を軽減でき，レプリケーション数を増やした場合に も Worker の処理能力に応じたスループットで解析処理できることが確認できた.</div> </blockquote>
+
+
+
+- **AI入門 -こんにゃく相場は予測できるのか‐**    
+中田 秀基
+, *群馬県蒟蒻原料商工業協同組合新年講演会*    , 2018 
 
 
 
