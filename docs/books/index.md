@@ -3,6 +3,17 @@ layout: default
 ---
 # 翻訳
 
+
+<div>
+<span class="title"> データエンジニアリングの基礎 ―データプロジェクトで失敗しないために </span>
+<span class="author"> Joe Reis(著), Matt Housley(著), 中田 秀基(翻訳) </span>
+<span class="isbn"> 4814400659 </span>
+<span class="publisher"> オライリー・ジャパン </span>
+</div>
+<p>
+</p>
+<a href="https://www.amazon.co.jp/dp/4814400659/?tag=hidemon01-22" target="_blank"><img src="https://m.media-amazon.com/images/I/41Sm74csCRL._SL200_.jpg" alt="4814400659" border="0" /></a>
+
 <div>
 <span class="title"> RustとWebAssemblyによるゲーム開発 ―安全・高速・プラットフォーム非依存のWebアプリ開発入門 </span>
 <span class="author"> Eric Smith(著), 中田 秀基(翻訳) </span>
