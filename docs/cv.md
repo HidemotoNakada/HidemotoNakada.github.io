@@ -11,13 +11,6 @@ layout: default
 - Title: Proffesor
 - Address: 6-8-1 Hinode, Urayasu, Chiba, 279-0031
 - E-Mail: hidemoto.nakada@gmail.com
-<!--
-- Affiliation: National Institute of Advanced Industrial Science and Technology, Digital Architecture Research Center
-- Title: Chief Senior Researcher
-- Address: Tsukuba Central 1, 1-1-1 Umezono, Tukuba, 3058560, Japan
-- Voice: +81-298-61-3093
-- E-Mail: hide-nakada(at)aist.go.jp
--->
 
 ## Research Interest
 
