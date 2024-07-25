@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # 翻訳
 
 

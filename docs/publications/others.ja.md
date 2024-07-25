@@ -3,6 +3,62 @@ layout: default
 ---
 # その他(日本語) 
 
+- **IoTシステムのためのデータ匿名化処理によるオーバーヘッド調査**  <span onmouseover="document.getElementById('dicomo24itoh').style.display = 'block'"  onmouseout="document.getElementById('dicomo24itoh').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *マルチメディア，分散，協調とモバイル(DICOMO2024)シンポジウム*   , pp. 747-752  , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="dicomo24itoh"> IoT機器から収集された様々なセンサデータをクラウドで収集, 解析し, 活用することが期待されている. しかし, モバイル環境にあるIoTデータの収集では, 各種サービスで要求される通信スループットや通信遅延を維持できるかが課題となる. また, IoT通信では個人に関わるデータを収集し, クラウド上で利用するため，プライバシの保護などセキュリティ面を考慮する必要もある．しかし, 通信途中で匿名化のようなデータ変換処理を行うと, オーバーヘッドが大きくなってしまうことが考えられる. 本稿では, IoT環境でプライバシを考慮したデータ匿名化処理を行った際の通信性能を調査する. センサ端末に近いエッジとクラウドにそれぞれブローカを配備し, エッジで匿名化処理を行ってクラウドに匿名化されたセンサデータを転送することを想定する. 実験では, IoT用通信ライブラリを提供するSINETStreamを用いて, 往復通信スループットを測定する. 2つのブローカ間を中継するSINETStream Bridgeを用い, MQTTとKafkaの2つのブローカ間の中継途中でデータ匿名化を行う. 実験結果から, データ匿名化を行った通信はデータ匿名化を行わない通信とほぼ同等の性能がみられ, 匿名化によるオーバーヘッドを最小限に抑えられることが確認できた.</div> </blockquote>
+
+
+
+- **AI橋渡しクラウドにおけるWebUIと量子コンピューティングサービスの導入**  <span onmouseover="document.getElementById('hpc2403').style.display = 'block'"  onmouseout="document.getElementById('hpc2403').style.display = 'none'">[abst]</span>   
+中田 秀基, 高宮 安仁, 高野 了成, 滝澤 真一朗, 谷村 勇輔
+, *情報処理学会研究報告 Vol.2024-HPC-193*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="hpc2403"> われわれはAI橋渡しクラウド(ABCI)を運用している。ABCIはSSHでログインすることを前提として設計されており、初学者に対する障壁が高いことが指摘されている。この問題を解決するために、スパコン環境におけるWebUIのデファクトスタンダードとなっているOpen OnDemandを導入した。さらにこの上のアプリケーションの一つとして量子コンピューティングサービスQniを導入した。</div> </blockquote>
+
+
+
+- **モバイル環境における IoT システムのための圧縮処理を用いた通信性能評価**  <span onmouseover="document.getElementById('zen24itoh').style.display = 'block'"  onmouseout="document.getElementById('zen24itoh').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *情報処理学会 第86回全国大会*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="zen24itoh"> IoT 機器から収集された様々なセンサデータをクラウドで収集, 解析し, 活用することが期待されている. しかし, モバイル環境にある IoT データの収集では, 各種サービスで要求される通信スループットや通信遅延を維持することができるかが課題となる. IoT 通信では小規模データが大量に送信されるため, 通信環境に合わせた転送方法を検討する必要がある. 本研究では, IoT 用通信ライブラリを提供する SINETStream[1][2] を用いて, IoT データ通信の性能評価を行う. 既発表研究で通信スループットを高めるにはマルチスレッド通信やデータ圧縮が有効であることを示した [3]. 本稿ではモバイル環境で, 送受信データ特性や圧縮率に焦点を当てた圧縮処理の有効性を調査し,性能向上のための検討を行う.</div> </blockquote>
+
+
+
+- **Zenoh bridgeを用いたROS 2の通信性能評価**  <span onmouseover="document.getElementById('zen24sasaki').style.display = 'block'"  onmouseout="document.getElementById('zen24sasaki').style.display = 'none'">[abst]</span>   
+佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
+, *情報処理学会 第86回全国大会*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="zen24sasaki"> マルチロボットシステムは，複数のロボットがセンシングしながら協力してタスクを遂行するシステムであり，作業の迅速化や冗長性の確保，高度なタスクの遂行を可能にする．このようなロボットシステムでは，一般にオープンソースソフトウェアのROS(Robot Operating System)が用いられている．2017年にリリースされたROS 2では，リアルタイム性を確保するため，通信プロトコルにDDS（Data Distribution Service）が採用されている．DDSは，デフォルトでマルチキャストUDPで通信を行っており，QoSを導入することで，性能，スケーラビリティ，信頼性などの向上を図っている．しかしDDSの課題として，ディスカバリーオーバヘッドや，無線通信環境下での通信や大規模データの通信が困難になることが挙げられており，新たな通信プロトコルZenohが注目されている．Zenohは低遅延で高スケーラブルなPub/Sub/Query型の通信プロトコルである．DDSやMQTTなど他プロトコルとの相互運用プラグインも提供しているが，その性能は明らかでない．本研究では，ZenohとDDSをブリッジするプラグインを用いたときのROS 2の通信性能を評価する．</div> </blockquote>
+
+
+
+- **パブリックコンテナサービスを用いた超分散テストベッドの構築**  <span onmouseover="document.getElementById('iot2403tou').style.display = 'block'"  onmouseout="document.getElementById('iot2403tou').style.display = 'none'">[abst]</span>   
+董 允治, 中田秀基, 谷村勇輔
+, *情報処理学会研究報告 Vol.2024-IOT-64*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="iot2403tou"> IoTセンサの普及に伴いセンサデータの爆発的増大が想定される。このような環境ではエッジにおいて前処理を行うことでデータ量を低減するとともにクラウドでの処理を軽減するアプローチが有効であると考えられる。このような環境で動作するミドルウェアの負荷に対する特性を評価するには大規模なテストベッドが必要だが、実機でこのようなテストベッドを用意するのはさまざまな観点から現実的ではない。我々はクラウド上のコンテナサービスを利用することで、テストベッドを構築する方法を提案する。オーケストレーションサービスを用いることで容易に短時間で大規模なテスト環境を構築できることを確認した。</div> </blockquote>
+
+
+
+- **モバイル環境における圧縮処理を用いたIoTシステムの通信性能向上のための検討**  <span onmouseover="document.getElementById('deim24itoh').style.display = 'block'"  onmouseout="document.getElementById('deim24itoh').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *第16回データ工学と情報マネジメントに関するフォーラム (DEIM)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="deim24itoh"> IoT 機器から収集された様々なセンサデータをクラウドで収集, 解析し, 活用することが期待されている. しかし, モバイル環境にある IoT データの収集では, 各種サービスで要求される通信スループットや通信遅延を維持す ることができるかが課題となる. IoT 通信では小規模データが大量に送信されるため, 通信環境に合わせた転送方法を 検討する必要がある. 本研究では, IoT 用通信ライブラリを提供する SINETStream を用いて, IoT データ通信の性能 評価を行う. 以前の研究により通信スループットを高めるにはマルチスレッド通信やデータ圧縮が有効であることが 示されている. 本稿ではモバイル環境で, 送受信データ形式や圧縮率に焦点を当てた圧縮処理の有効性について性能 評価を行い, 性能向上のための検討を行う. 実験ではデータサイズ, 圧縮アルゴリズム, データ形式, 圧縮率の条件を 変え, 比較を行う. その結果, 高圧縮であるほど性能が高くデータサイズが大きいほど性能差が顕著であること, 圧縮 時間と圧縮率に相関はないこと, 圧縮時間が全体の実行時間に与える影響はわずかであること, 適切なアルゴリズムや データ形式の選択や, データサイズに応じた圧縮処理の適用が性能向上に効果的であることが確認できた.</div> </blockquote>
+
+
+
+- **ROS 2準拠ロボット及びクラウドを用いたIoTアプリケーションのためのZenohの通信性能評価**  <span onmouseover="document.getElementById('deim24sasaki').style.display = 'block'"  onmouseout="document.getElementById('deim24sasaki').style.display = 'none'">[abst]</span>   
+佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
+, *第16回データ工学と情報マネジメントに関するフォーラム (DEIM)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="deim24sasaki"> ROS 2（Robot Operating System 2）は，ロボットアプリケーション開発のためのソフトウェアプラットフォームである．ROS 2 ではミドルウェアに DDS（Data Distribution Service）が用いられているが，無線通信環境で大規模データを扱うのに適しておらず，ディスカバリートラフィックなどの課題が存在する．Zenoh は低遅延で高スケーラブルな Pub/Sub/Query 型通信ミドルウェアで，DDS や MQTT など他プロトコルとの相互運用プラグインも提供しているが，その性能は明らかでない．本研究では，ROS 2 で実装されたセンサロボットとクラウドサーバを用いて，Zenoh と DDS をブリッジするプラグインを用いたときの ROS 2 の通信性能を評価する．</div> </blockquote>
+
+
+
 - **ネットワークエッジを活用した大規模データ収集システムのテスト環境構築と最適化の検討**  <span onmouseover="document.getElementById('hpc202309tou').style.display = 'block'"  onmouseout="document.getElementById('hpc202309tou').style.display = 'none'">[abst]</span>   
 董 允治, 中田秀基, 谷村勇輔
 , *情報処理学会研究報告 Vol.2023-HPC-191 No.11*    , 2023 
