@@ -3,6 +3,72 @@ layout: default
 ---
 # その他(日本語) 
 
+- **量子計算参入障壁を下げるビジュアルシミュレータ「QniGPU」：ABCI-QのGPUリソース活用・32量子ビット大規模シミュレーション対応基盤**    
+柏渕 颯, 高宮 安仁, 滝澤 真一朗, 中田 秀基, 高野 了成
+, *xsig2025ポスタ*    , 2025 
+
+
+
+- **量子マルチプログラミングによる量子計算機スループットの最適化**  <span onmouseover="document.getElementById('swopp25mori').style.display = 'block'"  onmouseout="document.getElementById('swopp25mori').style.display = 'none'">[abst]</span>   
+森 俊夫, 中田 秀基, 束野 仁政, 桝本 尚之, 宮永 崇史, 宮地 孝輔
+, *情報処理学会研究報告 Vol.2025-HPC-200*    , 2025 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="swopp25mori"> 昨今，量子コンピュータ研究が活発になる一方で実際に使用できる量子計算機はまだ少なく，限られたリソースを有効活用することが求められている．本発表では量子マルチプログラミングという手法を使い複数の量子回路を同時に並列実行することにより量子計算機のスループットを向上させる．量子回路の実行環境と，同時実行する量子回路自体をそれぞれグラフとして表現し，環境グラフと複数の量子回路グラフのマッチング問題を制約充足問題と定式化し解く．</div> </blockquote>
+
+
+
+- **ABCIにおける共用の推論評価試験環境の提供に向けた性能調査と方式検討**  <span onmouseover="document.getElementById('swopp25onishi').style.display = 'block'"  onmouseout="document.getElementById('swopp25onishi').style.display = 'none'">[abst]</span>   
+大西 尚樹, 谷村 勇輔, 滝澤 真一朗, 中田 秀基
+, *情報処理学会研究報告 Vol.2025-HPC-200*    , 2025 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="swopp25onishi"> ABCIはAIの研究開発のために構築されたHPCインフラであり，近年はLLMの開発に多くの計算資源が利用されている．LLMの開発にはモデルを訓練する「学習」フェーズと，モデルの評価を行う「推論」フェーズがある．我々は，ABCIの利便性向上のために，「推論」フェーズを補助する新たなサービスの提供を検討している．本稿では，推論サービスの設計のために，実用的な推論性能の調査と実行方式の検討結果を報告する．推論性能の調査として，70Bと8BパラメータのLLMを選定し，ユーザあたりのスループット性能(tokens/sec/user)と複数同時リクエスト時のスループット性能(tokens/sec)の測定を行った．実行方式としては，バッチジョブ，Jupyter Lab使用，Open OnDemandを利用した推論サーバの立ち上げの3つの実行方式を検討し，メリット等を整理した．このうち，3つめのOpen OnDemandと推論サーバを連携させて大規模モデルをリアルタイムに推論する方式について，アーキテクチャと作成したプロタイプ実装を詳述する．</div> </blockquote>
+
+
+
+- **強化学習で行動・推論・対話の制御プログラムを獲得する脳型AGIアーキテクチャの設計**  <span onmouseover="document.getElementById('jsai25ichisugi').style.display = 'block'"  onmouseout="document.getElementById('jsai25ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 高橋 直人, 竹内 泉, 佐野崇, 中田 秀基
+, *第39回 人工知能学会全国大会*    , 2025 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="jsai25ichisugi"> ヒトの脳の情報処理を模倣した脳型AGIアーキテクチャ設計の取り組みの現状を報告する。このアーキテクチャはヒトの脳の計算論に関するいくつかの仮説を前提として設計されている。脳の前頭前野の機能に対応する行動ルール集合がアーキテクチャの中心にあり、他のコンポーネントの状態の変更や、コンポーネント間の情報の流れの制御を行う。行動ルール集合は、教師なし学習と強化学習によって自律的に獲得できるように設計されている。個々の要素技術の動作確認はすんでおり、全体の統合も可能であるという見通しを得た。</div> </blockquote>
+
+
+
+- **IoT通信のためのJPEG圧縮と物体検出精度の性能評価**  <span onmouseover="document.getElementById('deim2025itoh').style.display = 'block'"  onmouseout="document.getElementById('deim2025itoh').style.display = 'none'">[abst]</span>   
+伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
+, *第17回データ工学と情報マネジメントに関するフォーラム*    , 2025 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="deim2025itoh"> IoT機器から収集された様々なセンサデータをクラウドで収集，解析し，活用することが期待されている．しかし，モバイル環境にあるIoTデータの収集では，各種サービスで要求される通信スループットや通信遅延を維持することが課題となる．そのため，IoT環境における画像データの転送では，クラウド上の機械学習モデルや物体検出精度に与える影響を抑えつつ圧縮処理を適用する必要があるが，その性能特性は明らかでない．本研究では，IoTデータ通信を想定した環境で，JPEG画像に対して通信性能と物体検出精度の相関を調査し，圧縮処理の実用性を示す．実験では，不可逆圧縮手法を用いて，全体の通信時間を予測するために計算モデルを作成する．また，圧縮品質を変えて物体検出精度を比較する．実験から，圧縮品質を下げることで圧縮無の場合と比べて全体の通信時間を削減できること，圧縮品質を低下させても物体検出精度への影響が小さいことが確認され，通信環境に応じた圧縮品質の制御が重要であることを示す。</div> </blockquote>
+
+
+
+- **複雑な知能を生み出す極限まで簡素化された環境の設計**  <span onmouseover="document.getElementById('sigagi24-28-ichisugi').style.display = 'block'"  onmouseout="document.getElementById('sigagi24-28-ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 高橋 直人, 竹内 泉, 佐野崇, 中田 秀基
+, *第28回 人工知能学会 汎用人工知能研究会(SIG-AGI)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="sigagi24-28-ichisugi"> The prefrontal cortex is the part of the brain that realizes complex human-like intelligence. This paper reports on the current status of the design and implementation of an agent environment with the goal of facilitating the experimentation and development of AI that reproduces the functions of the prefrontal cortex. In this environment, time and space are discretized and the environment is simplified to the maximum extent possible by eliminating the concepts of coordinates and distance. At the same time, agents can communicate with each other using logical expressions, making it possible to experiment and develop complex intelligence.</div> </blockquote>
+
+
+
+- **プログラム合成対象言語 Pro5Lang における知識表現形式**  <span onmouseover="document.getElementById('sigagi24-27-ichisugi').style.display = 'block'"  onmouseout="document.getElementById('sigagi24-27-ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
+, *第27回 人工知能学会 汎用人工知能研究会(SIG-AGI)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="sigagi24-27-ichisugi"> Program synthesis is one promising approach towards realizing AGI. The performance of program synthesis depends on the language specifications of the target language. We have mainly designed the control structure of the target language Pro5Lang, but have not given sufficient consideration to the method of expressing data structures. In this paper, inspired by the human brain, we attempt to design a knowledge representation format that combines high expressiveness with ease of program synthesis. We wrote a test program using the proposed knowledge representation format to perform reasoning using proof by contradiction and proof by cases, and confirmed the expressiveness of the language.</div> </blockquote>
+
+
+
+- **Protocol Bufferを用いたJulia言語における分散処理軽量化の試み**    
+中田 秀基
+, *xSIG2024 ポスター*    , 2024 
+
+
+
+- **属性ベース暗号を用いたIoT通信の性能評価**    
+佐々木 怜名, 竹房 あつ子, 中田 秀基, 小口 正人
+, *xSIG2024 ポスター*    , 2024 
+
+
+
 - **IoTシステムのためのデータ匿名化処理によるオーバーヘッド調査**  <span onmouseover="document.getElementById('dicomo24itoh').style.display = 'block'"  onmouseout="document.getElementById('dicomo24itoh').style.display = 'none'">[abst]</span>   
 伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
 , *マルチメディア，分散，協調とモバイル(DICOMO2024)シンポジウム*   , pp. 747-752  , 2024 
@@ -43,6 +109,14 @@ layout: default
 
 
 
+- **モンテカルロ版 RGoal アルゴリズムの改良**  <span onmouseover="document.getElementById('sigagi24-26-ichisugi').style.display = 'block'"  onmouseout="document.getElementById('sigagi24-26-ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
+, *第26回 人工知能学会 汎用人工知能研究会(SIG-AGI)*    , 2024 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="sigagi24-26-ichisugi"> We previously proposed a hierarchical reinforcement learning algorithm, RGoal, that allows recursive subroutine calls. In this paper, we improve the definition of the reference value for relative value in the Monte Carlo version of RGoal in order to stabilize learning when subroutines are shared between different tasks. The implemented algorithm was confirmed to work in several test tasks.</div> </blockquote>
+
+
+
 - **モバイル環境における圧縮処理を用いたIoTシステムの通信性能向上のための検討**  <span onmouseover="document.getElementById('deim24itoh').style.display = 'block'"  onmouseout="document.getElementById('deim24itoh').style.display = 'none'">[abst]</span>   
 伊藤 千紗, 竹房 あつ子, 中田 秀基, 小口 正人
 , *第16回データ工学と情報マネジメントに関するフォーラム (DEIM)*    , 2024 
@@ -56,6 +130,14 @@ layout: default
 , *第16回データ工学と情報マネジメントに関するフォーラム (DEIM)*    , 2024 
 
 > <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="deim24sasaki"> ROS 2（Robot Operating System 2）は，ロボットアプリケーション開発のためのソフトウェアプラットフォームである．ROS 2 ではミドルウェアに DDS（Data Distribution Service）が用いられているが，無線通信環境で大規模データを扱うのに適しておらず，ディスカバリートラフィックなどの課題が存在する．Zenoh は低遅延で高スケーラブルな Pub/Sub/Query 型通信ミドルウェアで，DDS や MQTT など他プロトコルとの相互運用プラグインも提供しているが，その性能は明らかでない．本研究では，ROS 2 で実装されたセンサロボットとクラウドサーバを用いて，Zenoh と DDS をブリッジするプラグインを用いたときの ROS 2 の通信性能を評価する．</div> </blockquote>
+
+
+
+- **再帰的な階層型強化学習 RGoal へのサブルーチン例外終了機能の導入**  <span onmouseover="document.getElementById('sigagi24-25-ichisugi').style.display = 'block'"  onmouseout="document.getElementById('sigagi24-25-ichisugi').style.display = 'none'">[abst]</span>   
+一杉 裕志, 中田 秀基, 高橋 直人, 竹内 泉, 佐野崇
+, *第25回 人工知能学会 汎用人工知能研究会(SIG-AGI)*    , 2023 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="sigagi24-25-ichisugi"> We previously proposed RGoal, a hierarchical reinforcement learning algorithm with recursive subroutine calls, but it had a strong limitation of only one subroutine exit. In this paper, we extend RGoal to allow subroutines to have multiple exits and also introduce an exception termination feature. Two versions of the algorithm, Monte Carlo and Sarsa, were implemented and tested on multiple test tasks. We also discussed problems with the current Sarsa version and proposed improvements.</div> </blockquote>
 
 
 

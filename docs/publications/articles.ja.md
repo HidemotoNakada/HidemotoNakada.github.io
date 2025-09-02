@@ -3,6 +3,18 @@ layout: default
 ---
 # 書籍/翻訳/雑誌記事 
 
+- **Async Rust ―高いパフォーマンスと安全性を両立するRustによる非同期処理**    
+Maxwell Flitton, Caroline Morton
+, *オライリー・ジャパン*    , 2025 
+
+
+
+- **Python機械学習クックブック 第2版**    
+Kyle Gallatin, Chris Albon
+, *オライリー・ジャパン*    , 2024 
+
+
+
 - **データエンジニアリングの基礎 ―データプロジェクトで失敗しないために**    
 Joe Reis , Matt Housley
 , *オライリー・ジャパン*    , 2024 

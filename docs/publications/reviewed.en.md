@@ -3,6 +3,14 @@ layout: default
 ---
 # Reviewed (English) 
 
+- **Communication Performance of ROS and ROS 2-Based IoT Systems for Smart Home Applications**  <span onmouseover="document.getElementById('ieice25sasaki').style.display = 'block'"  onmouseout="document.getElementById('ieice25sasaki').style.display = 'none'">[abst]</span>   
+Reina SASAKI, Atsuko TAKEFUSA, Hidemoto NAKADA, Masato OGUCHI
+, *The IEICE Transactions on Information and Systems, Vol. E108.D (2025), No. 8*   , pp. 895-905  , 2025 
+
+> <blockquote> <div style="text-align: justify; display: none; background: lightgrey; margin: 0 0 0 30pt" id="ieice25sasaki"> The data collected by Internet of Things (IoT) devices equipped with sensors enable smart home services such as monitoring of elderly, pets, and the indoor environment. Building an IoT system to collect data from individual households in the cloud requires measures to reduce communication latency and the amount of data transferred and protect privacy. Installing sensors in multiple indoor locations is necessary when collecting diverse data in an indoor environment. However, installing numerous sensors increases costs and makes it challenging to relocate them and obtain the necessary information. In this study, we indicate the effectiveness of an IoT system using a wheeled mobile robot implemented in a Robot Operating System (ROS). We attempt to demonstrate the effectiveness of sensor data collection using a robot by developing a prototype system that collects indoor environment information and performs analysis processing in a cloud via an edge server for a monitoring application of indoor carbon dioxide concentration. We also investigate the performance characteristics of ROS and ROS 2 communication between the sensor robot and the edge server and IoT communication between the edge server and the cloud server to identify technical issues in a smart home.</div> </blockquote>
+
+
+
 - **Object-Centric Representation Learning with Attention Mechanism**  <span onmouseover="document.getElementById('imcom24nakada').style.display = 'block'"  onmouseout="document.getElementById('imcom24nakada').style.display = 'none'">[abst]</span>   
 Hidemoto Nakada, Hideki Asoh
 , *The 18th International Conference on Ubiquitous Information Management and Communication (IMCOM &#x27;24)*    , 2024 
