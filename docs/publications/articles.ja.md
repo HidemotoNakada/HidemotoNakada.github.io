@@ -3,6 +3,12 @@ layout: default
 ---
 # 書籍/翻訳/雑誌記事 
 
+- **Python Polars ―高速なデータ処理を実現する次世代ライブラリ**    
+Jeroen Janssens, Thijs Nieuwdorp
+, *オライリー・ジャパン*    , 2025 
+
+
+
 - **Async Rust ―高いパフォーマンスと安全性を両立するRustによる非同期処理**    
 Maxwell Flitton, Caroline Morton
 , *オライリー・ジャパン*    , 2025 
